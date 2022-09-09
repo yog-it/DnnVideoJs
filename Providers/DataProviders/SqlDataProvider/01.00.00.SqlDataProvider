@@ -1,0 +1,45 @@
+/*
+
+INSTALL SQL PROVIDER SCRIPT
+
+VideoJs Extension for DNN
+
+Release Notes:
+ - Add video table
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}yogit_Videos]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}yogit_Videos];
+GO
+
+CREATE TABLE {databaseOwner}[{objectQualifier}yogit_Videos] (
+    [VideoId] [uniqueidentifier] DEFAULT (newsequentialid()) NOT NULL
+        CONSTRAINT [PK_{objectQualifier}yogit_Videos] PRIMARY KEY CLUSTERED,
+    [ModuleId] INT NOT NULL
+        CONSTRAINT [FK_{objectQualifier}yogit_Videos_ModuleId] FOREIGN KEY
+        REFERENCES {databaseOwner}[{objectQualifier}Modules] ([ModuleId]) ON DELETE CASCADE,
+    [Title] NVARCHAR(100) NOT NULL,
+	[PosterImage] NVARCHAR(255) NULL,
+	[VideoPath] NVARCHAR(255) NOT NULL,
+    [CreatedOnDate] DATETIME NOT NULL,
+    [CreatedByUserId] INT NOT NULL,
+    [LastModifiedOnDate] DATETIME NOT NULL,
+    [LastModifiedByUserId] INT NOT NULL
+);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}yogit_Videos_ModuleId] ON {databaseOwner}[{objectQualifier}yogit_Videos] ([ModuleId]);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}yogit_Videos_VideoId_ModuleId] ON {databaseOwner}[{objectQualifier}yogit_Videos] ([VideoId],[ModuleId]);
+GO
+
+CREATE NONCLUSTERED INDEX [IX_{objectQualifier}yogit_Videos_CreatedByUser] ON {databaseOwner}[{objectQualifier}yogit_Videos] ([CreatedByUserId]);
+GO
+
+/*
+
+END OF FILE
+
+*/

@@ -1,0 +1,17 @@
+/*
+
+UNINSTALL SQL PROVIDER SCRIPT
+
+VideoJs Extension for DNN
+
+*/
+
+IF NOT OBJECT_ID('{databaseOwner}[{objectQualifier}yogit_Videos]') IS NULL
+    DROP TABLE {databaseOwner}[{objectQualifier}yogit_Videos];
+GO
+
+/*
+
+END OF FILE
+
+*/

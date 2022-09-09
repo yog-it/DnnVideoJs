@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dotnetnuke type="Package" version="6.0">
+  <packages>
+    <package name="YogIt.Modules.VideoJs_Symbols" type="Library" version="01.00.01">
+      <friendlyName>VideoJs Module Symbols</friendlyName>
+      <description><![CDATA[Configure and play videos in DNN portals using VideoJS.]]></description>
+      <owner>
+        <name>Ryan Jagdfeld</name>
+        <organization>YogIT</organization>
+        <url>www.yogit.com</url>
+        <email>support@yogit.com</email>
+      </owner>
+      <license src="License.txt" />
+      <releaseNotes src="ReleaseNotes.txt" />
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="managedPackage" version="1.0.0">YogIt.Modules.VideoJs</dependency>
+      </dependencies>
+
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath></basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

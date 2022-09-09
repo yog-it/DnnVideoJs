@@ -1,0 +1,25 @@
+/*
+
+INSTALL SQL PROVIDER SCRIPT
+
+VideoJs Extension for DNN
+
+Release Notes:
+ - Add field for Caption File Path
+
+*/
+
+IF NOT EXISTS(SELECT 1 FROM sys.columns 
+          WHERE Name = N'CaptionFilePath'
+          AND Object_ID = Object_ID(N'{databaseOwner}[{objectQualifier}yogit_Videos]'))
+BEGIN
+    ALTER TABLE {databaseOwner}[{objectQualifier}yogit_Videos]
+		ADD CaptionFilePath NVARCHAR(255) NULL
+END
+GO
+
+/*
+
+END OF FILE
+
+*/
