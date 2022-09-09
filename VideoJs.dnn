@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="YogIt.Modules.VideoJs" type="Module" version="01.00.03">
+    <package name="YogIt.Modules.VideoJs" type="Module" version="01.00.03-beta">
       <friendlyName>VideoJs</friendlyName>
       <description>
         <![CDATA[<p>Configure and play videos in DNN portals using VideoJS.</p>]]>
