@@ -118,7 +118,6 @@
     <Content Include="FullScreen.js" />
     <Content Include="NuGet.config" />
     <None Include="packages.config" />
-    <Content Include="Providers\DataProviders\SqlDataProvider\01.00.02.SqlDataProvider" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="DotNetNuke" />
@@ -147,7 +146,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Images\logo.png" />
-    <Content Include="Providers\DataProviders\SqlDataProvider\01.00.00.SqlDataProvider" />
+    <Content Include="Providers\DataProviders\SqlDataProvider\1.0.0.SqlDataProvider" />
     <Content Include="Providers\DataProviders\SqlDataProvider\Uninstall.SqlDataProvider" />
     <Content Include="Edit.ascx" />
     <Content Include="License.txt" />

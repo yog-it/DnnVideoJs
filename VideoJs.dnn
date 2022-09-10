@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="YogIt.Modules.VideoJs" type="Module" version="01.00.03-beta">
+    <package name="YogIt.Modules.VideoJs" type="Module" version="0.2.1">
       <friendlyName>VideoJs</friendlyName>
       <description>
         <![CDATA[<p>Configure and play videos in DNN portals using VideoJS.</p>]]>
@@ -25,18 +25,13 @@
             <basePath>DesktopModules\VideoJs</basePath>
             <script type="Install">
               <path>Providers\DataProviders\SqlDataProvider</path>
-              <name>01.00.00.SqlDataProvider</name>
-              <version>01.00.00</version>
-            </script>
-            <script type="Install">
-              <path>Providers\DataProviders\SqlDataProvider</path>
-              <name>01.00.02.SqlDataProvider</name>
-              <version>01.00.02</version>
+              <name>1.0.0.SqlDataProvider</name>
+              <version>1.0.0</version>
             </script>
             <script type="UnInstall">
               <path>Providers\DataProviders\SqlDataProvider</path>
               <name>Uninstall.SqlDataProvider</name>
-              <version>01.00.02</version>
+              <version>1.0.0</version>
             </script>
           </scripts>
         </component>
@@ -93,7 +88,7 @@
             <attributes>
               <businessControllerClass>YogIt.Modules.VideoJs.Components.FeatureController, YogIt.Modules.VideoJs</businessControllerClass>
               <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
-              <upgradeVersionsList>01.00.03</upgradeVersionsList>
+              <upgradeVersionsList>0.2.1</upgradeVersionsList>
             </attributes>
           </eventMessage>
         </component>
@@ -103,7 +98,7 @@
             <assembly>
               <name>YogIt.Modules.VideoJs.dll</name>
               <path>bin</path>
-              <version>01.00.03</version>
+              <version>0.2.1</version>
             </assembly>
           </assemblies>
         </component>
