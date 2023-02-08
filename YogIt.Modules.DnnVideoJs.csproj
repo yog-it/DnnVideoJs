@@ -118,6 +118,7 @@
     <Content Include="FullScreen.js" />
     <Content Include="NuGet.config" />
     <None Include="packages.config" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="DotNetNuke" />
