@@ -1,6 +1,6 @@
 # DnnVideoJS
 Play Videos in DNN with [VideoJS](https://github.com/videojs/video.js)
-- Embed videos into your site with video.js
+- Embed videos with video.js
 - Include Close Captioning
 - Works with Azure Storage connection
 
