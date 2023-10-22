@@ -20,3 +20,26 @@ To clone this repository, first setup the scaffolding.  It uses [@UpendoVentures
 Generate the scaffold in a folder for the project with `yo upendodnn`. Select Solution Structure from the list and answer the questions.  Once complete, go to the Modules folder and clone this repo there `git clone https://github.com/yog-it/DnnJobPostings.git`. Optionally install the latest version of DNN into the Website folder of the scaffold. 
 
 To compile and create the install package, open the Visual Studio project and build in release.  The install package will be in the /Website/Installs/Module folder along with a "symbols" package for debugging.  If DNN is installed in the Website folder the package will be available to install from persona bar Settings > Extensions and select Available Extensions.
+
+## Release Notes
+### Version 1.0.0
+	- Initial Release
+
+### Version 0.2.1-beta
+	- Fixed file URL not loading from the File Manager instance for Folder Providers
+	- Added Caching
+
+### Version 0.2.0-beta
+	- Allow close captioning text tracks for .vtt files
+
+### Version 0.1.0-beta
+	- Setting for playing the video as a background
+	- Setting for playing videos from a portal folder
+	- Setting for playing the video automatically in full screen
+
+### Version 0.0.0-beta
+	- Initial Beta Release
+	- Add a video
+	- Play the video
+	- Enjoy
+

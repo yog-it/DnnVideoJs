@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Yog-IT LLC")]
 [assembly: AssemblyProduct("VideoJs Modules Extension for DNN")]
-[assembly: AssemblyCopyright("Copyright 2022 Yog-IT LLC")]
+[assembly: AssemblyCopyright("Copyright 2021-2023 Yog-IT LLC")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("0.2.1")]
-[assembly: AssemblyFileVersion("0.2.1")]
+[assembly: AssemblyVersion("1.0.0")]
+[assembly: AssemblyFileVersion("1.0.0")]
