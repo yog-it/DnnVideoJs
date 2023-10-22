@@ -1,24 +1,6 @@
 
 <h2>VideoJs Modules Extension for DNN</h2>
-<p>Version 0.2.1-beta</p>
-<ul>
-	<li>Fixed file URL not loading from the File Manager instance for Folder Providers</li>
-	<li>Added Caching</li>
-</ul>
-<p>Version 0.2.0-beta</p>
-<ul>
-	<li>Allow close captioning text tracks for .vtt files</li>
-</ul>
-<p>Version 0.1.0-beta</p>
-<ul>
-	<li>Setting for playing the video as a background</li>
-	<li>Setting for playing videos from a portal folder</li>
-	<li>Setting for playing the video automatically in full screen</li>
-</ul>
-<p>Version 0.0.0-beta</p>
+<h3>Version 1.0.0</h3>
 <ul>
 	<li>Initial Release</li>
-	<li>Add a video</li>
-	<li>Play the video</li>
-	<li>Enjoy</li>
 </ul>

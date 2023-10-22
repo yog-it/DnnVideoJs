@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dotnetnuke type="Package" version="6.0">
   <packages>
-    <package name="YogIt.Modules.VideoJs_Symbols" type="Library" version="0.2.1">
+    <package name="YogIt.Modules.VideoJs_Symbols" type="Library" version="1.0.0">
       <friendlyName>VideoJs Module Symbols</friendlyName>
       <description><![CDATA[Configure and play videos in DNN portals using VideoJS.]]></description>
       <owner>
