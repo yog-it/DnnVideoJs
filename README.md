@@ -4,6 +4,16 @@ Play Videos in DNN with [VideoJS](https://github.com/videojs/video.js)
 - Include Close Captioning
 - Works with Azure Storage connection
 
+## Installation
+
+Download the latest version of the package from the [releases page](https://github.com/yog-it/DnnVideoJs/releases).
+
+1. Login to your DNN instance as the Host user and go to the **Host > Extensions** section of the PersonaBar.
+1. Select the **Install Extension** button and upload the zip file you downloaded in the previous step.
+1. Go through the steps and install the extension.
+1. Go to a page on your site and add the **VideoJs** module to the page.					
+1. Configure the module as needed in the module settings.
+
 ## Development Setup
 To clone this repository, first setup the scaffolding.  It uses [@UpendoVentures](https://github.com/UpendoVentures) yeoman generator-upendodnn.  To run it, install yeoman `npm install -g yo`. Then install Yarn `npm install -g yarn`. And finally, install the generator `npm install -g generator-upendodnn`. 
 
