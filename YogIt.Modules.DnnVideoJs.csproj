@@ -117,7 +117,6 @@
   <ItemGroup>
     <Content Include="FullScreen.js" />
     <Content Include="NuGet.config" />
-    <Content Include="docs\index.md" />
     <None Include="packages.config" />
     <Content Include="README.md" />
   </ItemGroup>

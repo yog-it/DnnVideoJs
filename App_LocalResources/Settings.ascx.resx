@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="plBackground.Help" xml:space="preserve">
-    <value>Use this feature to load the video as a background to the page.  This feature mutes the video upon play because most devices don't allow auto play and sound at the same time.</value>
+    <value>Use this feature to load the video as a background to the page.  This feature mutes the video upon play because most devices don't allow auto play and audio at the same time.</value>
   </data>
   <data name="plBackground.Text" xml:space="preserve">
     <value>Display as page background</value>
@@ -136,7 +136,7 @@
     <value>Folder</value>
   </data>
   <data name="plFullScreen.Help" xml:space="preserve">
-    <value>The video play will automatically go to full screen when the play button is clicked.</value>
+    <value>The video will automatically go to full screen when the play button is clicked.</value>
   </data>
   <data name="plFullScreen.Text" xml:space="preserve">
     <value>Play in full screen mode automatically</value>
