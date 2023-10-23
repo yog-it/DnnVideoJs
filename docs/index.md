@@ -6,7 +6,7 @@
 ## Installation
 1. Download the latest version of the package from the [releases page](https://github.com/yog-it/DnnVideoJs/releases).
 1. Login to your DNN instance as the Host user and go to the **Host > Extensions** section of the PersonaBar.
-![Extensions section of the PersonaBar](/images/fig1.jpg)
+![Extensions section of the PersonaBar](/images/fig1.png)
 1. Select the **Install Extension** button and upload the zip file you downloaded in the previous step.
 ![Install Extension button](/images/fig2.png)
 1. Go through the steps and install the extension.
